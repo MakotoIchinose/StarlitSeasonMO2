@@ -19,6 +19,20 @@ However, most Starlit Season mods originated from GameBanana, thus missing direc
 but you're still able to drag and drop the archive into MO2 and proceed as necessary. Mods made before this plugin's publishing may also not
 taking advantage of MO2's metadata features, listing version and category.
 
+## Mod Creation
+
+To make use of Mod Organizer 2 metadata feature, make a `meta.ini` file in the root directory of your mod archive. The specifications are follows:
+```
+[General]
+modID=0
+name=<Mod file name>
+modName=<Mod display name>
+version=<Mod version>
+```
+
+If you're publishing to Nexus Mods, those are automatically generated, and then some. Still, it'll be useful to fill in the metadata
+to make things prettier in Mod Organizer 2.
+
 ## Workings
 This plugin uses MO2 to create virtual directory for `~mods`, which is expected
 
