@@ -8,7 +8,7 @@ However, I'm struggling to get I/O and virtual folder system in place, so instea
 Simply download the Python file, and put it inside the Mod Organizer's plugin directory:
 `<path to MO2>\plugins\basic_games\games`
 
-Also available on GameBanana
+[Also available on GameBanana.](https://gamebanana.com/mods/465148)
 
 ## Mod Installation
 
